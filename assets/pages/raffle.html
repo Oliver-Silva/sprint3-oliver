@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNOWY CREAM - RAFFLE</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" type="image/x-icon" href="../images/icon.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="./aboutUs.html">About Us</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./information.html">More information</a>
+            <a href="./benefitsTips.html">Benefits and Tips</a>
+            <a href="#">Raffle</a>
+        </nav>
+            <img id="logo" src="../images/logo.png" alt="logo">
+    </header>
+    <main id="main1">
+        <div class="container1">
+            <h1 id="title">RAFFLE</h1>
+            <p class="text--1">YOU CAN COLLABORATE SO THAT WE EXPAND THE BUSINESS AND BY DOING SO YOU WILL BE PARTICIPATING IN THE RAFFLE FOR BOX OF TRADITIONAL ICE CREAMS</p>
+        </div>
+        <div id="divmain">
+            <div id="container--3">
+                <form action="./show_data.html" method="get">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="f-name">
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="l-name">
+                    <label for="option-selection">Choose Meet or Zoom</label>
+                    <select name="option" id="option-selection">
+                        <option value="">--select option--</option>
+                        <option value="meet">Meet</option>
+                        <option value="zoom">Zoom</option>
+                    </select>
+                    <label for="start">Choose date:</label>
+                    <input type="date" id="start" name="date-selected"
+                        value="2023-07-22"
+                        min="2023-07-22" max="2023-12-31">
+                    <input type="radio" id="cash" name="payment-method" value="cash">
+                    <label for="cash">Cash</label>
+                    <input type="radio" id="credit-card" name="payment-method" value="credit card">
+                    <label for="credit-card">Credit Card</label>
+                    <input type="radio" id="debit-card" name="payment-method" value="debit card">
+                    <label for="debit-card">Debit Card</label>
+                    <label for="message">Message (Optional)</label>
+                    <input type="text" id="message" name="message">
+                    <input type="checkbox" id="terms" name="terms">
+                    <label for="terms">I accept terms and conditions...</label>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+            <div id="container--4">
+                <p class="text--4">Our location is located at:</p>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d50977.08456935578!2d-73.1611136!3d-37.0081792!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scl!4v1690072781623!5m2!1ses-419!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="footer">&reg; Created by: Oliver Silva &reg;</p>
+    </footer>
+</html>
